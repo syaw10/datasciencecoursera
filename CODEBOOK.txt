@@ -1,8 +1,13 @@
+=========================
 DATASET
+=========================
 
-The run_analysis function extracts its data from the UCI HAR Dataset <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
+The run_analysis function extracts its data from the UCI HAR Dataset 
+<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
 
+=========================
 DATA TABLES
+=========================
 
 	1. x_test
 	2. y_test
@@ -11,7 +16,9 @@ DATA TABLES
 	5. y_train
 	6. subject_train
 
+==========================
 VARIABLE LABELS
+==========================
 
 "Acc" == "Accelerometer"
 "Gyro" == "Gyroscope"
@@ -26,7 +33,9 @@ VARIABLE LABELS
 "angle" == "Angle"
 "gravity" == "Gravity"
 
+==========================
 ACTIVITIES
+==========================
 
 1.	Created variable labels for the data tables specified above.
 2.	Merged the information from the UCI HAR Dataset using rbind and cbind 	function.
