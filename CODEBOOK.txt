@@ -1,0 +1,36 @@
+DATASET
+
+The run_analysis function extracts its data from the UCI HAR Dataset <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
+
+DATA TABLES
+
+	1. x_test
+	2. y_test
+	3. subject_test
+	4. x_train
+	5. y_train
+	6. subject_train
+
+VARIABLE LABELS
+
+"Acc" == "Accelerometer"
+"Gyro" == "Gyroscope"
+"BodyBody" == "Body"
+"Mag" =="Magnitude"
+"^t" == "Time"
+"^f" == "Frequency"
+"tBody" == "TimeBody"
+"-mean()" == "Mean"
+"-std()" == "STD"
+"-freq()" == "Frequency"
+"angle" == "Angle"
+"gravity" == "Gravity"
+
+ACTIVITIES
+
+1.	Created variable labels for the data tables specified above.
+2.	Merged the information from the UCI HAR Dataset using rbind and cbind 	function.
+3.	Cleaned data by selecting the mean and standard deviation from the columns
+	subject and code respectively.
+4.	Renamed the variable labels as specified above.
+5.	Output tidy data to txt file.
